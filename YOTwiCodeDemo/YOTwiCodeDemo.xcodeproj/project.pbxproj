@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F4BC62B1EA735DB00C80573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BC62A1EA735DB00C80573 /* main.m */; };
+		9F4BC62E1EA735DB00C80573 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BC62D1EA735DB00C80573 /* AppDelegate.m */; };
+		9F4BC6311EA735DB00C80573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BC6301EA735DB00C80573 /* ViewController.m */; };
+		9F4BC6341EA735DB00C80573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4BC6321EA735DB00C80573 /* Main.storyboard */; };
+		9F4BC6361EA735DB00C80573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4BC6351EA735DB00C80573 /* Assets.xcassets */; };
+		9F4BC6391EA735DB00C80573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4BC6371EA735DB00C80573 /* LaunchScreen.storyboard */; };
+		9F4BC6441EA735DB00C80573 /* YOTwiCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BC6431EA735DB00C80573 /* YOTwiCodeDemoTests.m */; };
+		9F4BC64F1EA735DB00C80573 /* YOTwiCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4BC64E1EA735DB00C80573 /* YOTwiCodeDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F4BC6401EA735DB00C80573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4BC61E1EA735DB00C80573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4BC6251EA735DB00C80573;
+			remoteInfo = YOTwiCodeDemo;
+		};
+		9F4BC64B1EA735DB00C80573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4BC61E1EA735DB00C80573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4BC6251EA735DB00C80573;
+			remoteInfo = YOTwiCodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F4BC6261EA735DB00C80573 /* YOTwiCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOTwiCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4BC62A1EA735DB00C80573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4BC62C1EA735DB00C80573 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F4BC62D1EA735DB00C80573 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F4BC62F1EA735DB00C80573 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F4BC6301EA735DB00C80573 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F4BC6331EA735DB00C80573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F4BC6351EA735DB00C80573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4BC6381EA735DB00C80573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F4BC63A1EA735DB00C80573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4BC63F1EA735DB00C80573 /* YOTwiCodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOTwiCodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4BC6431EA735DB00C80573 /* YOTwiCodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOTwiCodeDemoTests.m; sourceTree = "<group>"; };
+		9F4BC6451EA735DB00C80573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4BC64A1EA735DB00C80573 /* YOTwiCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOTwiCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4BC64E1EA735DB00C80573 /* YOTwiCodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOTwiCodeDemoUITests.m; sourceTree = "<group>"; };
+		9F4BC6501EA735DB00C80573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4BC6231EA735DB00C80573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4BC63C1EA735DB00C80573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4BC6471EA735DB00C80573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4BC61D1EA735DB00C80573 = {
+			isa = PBXGroup;
+			children = (
+				9F4BC6281EA735DB00C80573 /* YOTwiCodeDemo */,
+				9F4BC6421EA735DB00C80573 /* YOTwiCodeDemoTests */,
+				9F4BC64D1EA735DB00C80573 /* YOTwiCodeDemoUITests */,
+				9F4BC6271EA735DB00C80573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4BC6271EA735DB00C80573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BC6261EA735DB00C80573 /* YOTwiCodeDemo.app */,
+				9F4BC63F1EA735DB00C80573 /* YOTwiCodeDemoTests.xctest */,
+				9F4BC64A1EA735DB00C80573 /* YOTwiCodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4BC6281EA735DB00C80573 /* YOTwiCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BC62C1EA735DB00C80573 /* AppDelegate.h */,
+				9F4BC62D1EA735DB00C80573 /* AppDelegate.m */,
+				9F4BC62F1EA735DB00C80573 /* ViewController.h */,
+				9F4BC6301EA735DB00C80573 /* ViewController.m */,
+				9F4BC6321EA735DB00C80573 /* Main.storyboard */,
+				9F4BC6351EA735DB00C80573 /* Assets.xcassets */,
+				9F4BC6371EA735DB00C80573 /* LaunchScreen.storyboard */,
+				9F4BC63A1EA735DB00C80573 /* Info.plist */,
+				9F4BC6291EA735DB00C80573 /* Supporting Files */,
+			);
+			path = YOTwiCodeDemo;
+			sourceTree = "<group>";
+		};
+		9F4BC6291EA735DB00C80573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BC62A1EA735DB00C80573 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F4BC6421EA735DB00C80573 /* YOTwiCodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BC6431EA735DB00C80573 /* YOTwiCodeDemoTests.m */,
+				9F4BC6451EA735DB00C80573 /* Info.plist */,
+			);
+			path = YOTwiCodeDemoTests;
+			sourceTree = "<group>";
+		};
+		9F4BC64D1EA735DB00C80573 /* YOTwiCodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4BC64E1EA735DB00C80573 /* YOTwiCodeDemoUITests.m */,
+				9F4BC6501EA735DB00C80573 /* Info.plist */,
+			);
+			path = YOTwiCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4BC6251EA735DB00C80573 /* YOTwiCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4BC6531EA735DB00C80573 /* Build configuration list for PBXNativeTarget "YOTwiCodeDemo" */;
+			buildPhases = (
+				9F4BC6221EA735DB00C80573 /* Sources */,
+				9F4BC6231EA735DB00C80573 /* Frameworks */,
+				9F4BC6241EA735DB00C80573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOTwiCodeDemo;
+			productName = YOTwiCodeDemo;
+			productReference = 9F4BC6261EA735DB00C80573 /* YOTwiCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F4BC63E1EA735DB00C80573 /* YOTwiCodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4BC6561EA735DB00C80573 /* Build configuration list for PBXNativeTarget "YOTwiCodeDemoTests" */;
+			buildPhases = (
+				9F4BC63B1EA735DB00C80573 /* Sources */,
+				9F4BC63C1EA735DB00C80573 /* Frameworks */,
+				9F4BC63D1EA735DB00C80573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4BC6411EA735DB00C80573 /* PBXTargetDependency */,
+			);
+			name = YOTwiCodeDemoTests;
+			productName = YOTwiCodeDemoTests;
+			productReference = 9F4BC63F1EA735DB00C80573 /* YOTwiCodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F4BC6491EA735DB00C80573 /* YOTwiCodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4BC6591EA735DB00C80573 /* Build configuration list for PBXNativeTarget "YOTwiCodeDemoUITests" */;
+			buildPhases = (
+				9F4BC6461EA735DB00C80573 /* Sources */,
+				9F4BC6471EA735DB00C80573 /* Frameworks */,
+				9F4BC6481EA735DB00C80573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4BC64C1EA735DB00C80573 /* PBXTargetDependency */,
+			);
+			name = YOTwiCodeDemoUITests;
+			productName = YOTwiCodeDemoUITests;
+			productReference = 9F4BC64A1EA735DB00C80573 /* YOTwiCodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4BC61E1EA735DB00C80573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = izaodao;
+				TargetAttributes = {
+					9F4BC6251EA735DB00C80573 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 484K6R2Q5K;
+						ProvisioningStyle = Automatic;
+					};
+					9F4BC63E1EA735DB00C80573 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F4BC6251EA735DB00C80573;
+					};
+					9F4BC6491EA735DB00C80573 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F4BC6251EA735DB00C80573;
+					};
+				};
+			};
+			buildConfigurationList = 9F4BC6211EA735DB00C80573 /* Build configuration list for PBXProject "YOTwiCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4BC61D1EA735DB00C80573;
+			productRefGroup = 9F4BC6271EA735DB00C80573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4BC6251EA735DB00C80573 /* YOTwiCodeDemo */,
+				9F4BC63E1EA735DB00C80573 /* YOTwiCodeDemoTests */,
+				9F4BC6491EA735DB00C80573 /* YOTwiCodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4BC6241EA735DB00C80573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4BC6391EA735DB00C80573 /* LaunchScreen.storyboard in Resources */,
+				9F4BC6361EA735DB00C80573 /* Assets.xcassets in Resources */,
+				9F4BC6341EA735DB00C80573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4BC63D1EA735DB00C80573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4BC6481EA735DB00C80573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4BC6221EA735DB00C80573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4BC6311EA735DB00C80573 /* ViewController.m in Sources */,
+				9F4BC62E1EA735DB00C80573 /* AppDelegate.m in Sources */,
+				9F4BC62B1EA735DB00C80573 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4BC63B1EA735DB00C80573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4BC6441EA735DB00C80573 /* YOTwiCodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4BC6461EA735DB00C80573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4BC64F1EA735DB00C80573 /* YOTwiCodeDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F4BC6411EA735DB00C80573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4BC6251EA735DB00C80573 /* YOTwiCodeDemo */;
+			targetProxy = 9F4BC6401EA735DB00C80573 /* PBXContainerItemProxy */;
+		};
+		9F4BC64C1EA735DB00C80573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4BC6251EA735DB00C80573 /* YOTwiCodeDemo */;
+			targetProxy = 9F4BC64B1EA735DB00C80573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F4BC6321EA735DB00C80573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4BC6331EA735DB00C80573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F4BC6371EA735DB00C80573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4BC6381EA735DB00C80573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4BC6511EA735DB00C80573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F4BC6521EA735DB00C80573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4BC6541EA735DB00C80573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 484K6R2Q5K;
+				INFOPLIST_FILE = YOTwiCodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.YOTwiCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F4BC6551EA735DB00C80573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 484K6R2Q5K;
+				INFOPLIST_FILE = YOTwiCodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.YOTwiCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F4BC6571EA735DB00C80573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YOTwiCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.YOTwiCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOTwiCodeDemo.app/YOTwiCodeDemo";
+			};
+			name = Debug;
+		};
+		9F4BC6581EA735DB00C80573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YOTwiCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.YOTwiCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOTwiCodeDemo.app/YOTwiCodeDemo";
+			};
+			name = Release;
+		};
+		9F4BC65A1EA735DB00C80573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YOTwiCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.YOTwiCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YOTwiCodeDemo;
+			};
+			name = Debug;
+		};
+		9F4BC65B1EA735DB00C80573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YOTwiCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangou.YOTwiCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YOTwiCodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4BC6211EA735DB00C80573 /* Build configuration list for PBXProject "YOTwiCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4BC6511EA735DB00C80573 /* Debug */,
+				9F4BC6521EA735DB00C80573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4BC6531EA735DB00C80573 /* Build configuration list for PBXNativeTarget "YOTwiCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4BC6541EA735DB00C80573 /* Debug */,
+				9F4BC6551EA735DB00C80573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F4BC6561EA735DB00C80573 /* Build configuration list for PBXNativeTarget "YOTwiCodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4BC6571EA735DB00C80573 /* Debug */,
+				9F4BC6581EA735DB00C80573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F4BC6591EA735DB00C80573 /* Build configuration list for PBXNativeTarget "YOTwiCodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4BC65A1EA735DB00C80573 /* Debug */,
+				9F4BC65B1EA735DB00C80573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4BC61E1EA735DB00C80573 /* Project object */;
+}
